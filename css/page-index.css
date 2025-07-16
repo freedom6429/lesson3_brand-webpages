@@ -1,0 +1,105 @@
+.breadcrumb {
+  margin-top: 32px;
+}
+
+.breadcrumb span {
+  display: inline-block;
+  margin: 0 12px;
+  color: #dee2e6;
+}
+
+main h2 {
+  font-size: 32px;
+}
+
+/* products */
+.products {
+  padding-bottom: 32px;
+}
+
+.side-menu {
+  padding-right: 12px;
+}
+
+.side-menu li {
+  padding: 8px 0;
+}
+
+.side-menu a:link,
+.side-menu a:visited {
+  color: #212529;
+}
+
+.side-menu a.active,
+.side-menu a:hover {
+  color: #57a203;
+}
+
+.product-cards {
+  margin: 0 -12px;
+}
+
+.product-card {
+  padding: 0 12px;
+}
+
+.product-card:last-of-type {
+  display: none;
+}
+
+.product-card .image-container {
+  width: 100%;
+  padding-bottom: 100%; /* 跟隨width */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+/* hover時使用的半透明遮罩 */
+.product-card .image-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0);
+  pointer-events: none;
+}
+
+.product-card a:link,
+.product-card a:visited {
+  color: #212529;
+}
+
+.product-card a:hover .image-container::before {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* pagination */
+.pagination .previous {
+  margin-right: 12px;
+}
+
+.pagination .next {
+  margin-left: 12px;
+}
+
+.pagination button {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.pagination button svg {
+  width: 20px;
+  height: 20px;
+}
+
+button.active {
+  background-color: #c0fa73;
+}
+
+button.active:hover {
+  color: #212529;
+}

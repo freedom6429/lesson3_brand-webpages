@@ -1,0 +1,207 @@
+/* page: platform-404 */
+/* main-product */
+
+.main-product {
+  padding: 64px 0;
+  margin: 0 -12px;
+}
+
+.product-images,
+.product-info {
+  flex: 0 0 auto;
+  padding: 0 12px;
+}
+
+/* product-image */
+.product-images {
+  margin: 0 -4px;
+}
+
+.product-images li {
+  padding: 4px;
+}
+
+.product-images .image-container {
+  width: 100%;
+  padding-bottom: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.product-images li img {
+  width: 100%;
+}
+
+/* product-info */
+/* section description */
+
+.description .title {
+  font-size: 32px;
+}
+
+.description .price .current-price {
+  font-size: 20px;
+  color: #57a203;
+}
+
+.description .price .full-price {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 14px;
+  color: #adb5bd;
+  vertical-align: middle;
+  text-decoration: line-through;
+}
+
+/* specs */
+.color-list li {
+  width: 64px;
+}
+
+.color-list img {
+  width: 100%;
+}
+
+.color-list a:hover img {
+  opacity: 0.8;
+}
+
+.color-list figcaption {
+  color: #6c757d;
+  text-align: center;
+}
+
+.size-list li {
+  width: 160px;
+}
+
+.size-list button.size {
+  text-align: center;
+  padding: 12px 24px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  width: 100%;
+}
+
+.size-list button.size:hover,
+.size-list button.size:active {
+  border: 1px solid #212529;
+}
+
+.size-list button.size.selected {
+  border: 1px solid #212529;
+}
+
+.size-list button.size.no-stock {
+  color: #dee2e6;
+  border-color: #dee2e6;
+  cursor: default;
+}
+
+.sizes .stock-warning {
+  color: #d74f4f;
+  font-size: 14px;
+}
+
+/* cta */
+.cta .add-like {
+  width: 50%;
+  padding: 12px 0;
+}
+
+.cta .reservation {
+  width: 50%;
+  color: #fff;
+  background-color: #212529;
+  padding: 12px 0;
+}
+
+.cta .add-like,
+.cta .reservation {
+  text-align: center;
+  border: 1px solid #212529;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  padding: 12px 0;
+}
+
+.cta a:hover {
+  background-color: #495057;
+}
+
+.cta .add-like:hover {
+  color: #fff;
+  background-color: #212529;
+}
+
+.cta .add-like-mobile {
+  background-image: url("../img/heart.svg");
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: center;
+  display: none;
+}
+
+/* other */
+.other div {
+  padding: 12px 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.other ul,
+.other p {
+  color: #6c757d;
+}
+
+/* reference */
+.reference {
+  padding: 48px 0;
+}
+
+.reference h2 {
+  font-size: 24px;
+}
+
+.refer-list li {
+  width: calc((1296px - 24px) / 4);
+}
+
+.refer-item .image-container {
+  width: 100%;
+  padding-bottom: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+/* hover時半透明遮色片 */
+.refer-item .image-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0);
+  pointer-events: none;
+}
+
+.refer-list li img {
+  width: 100%;
+}
+
+.refer-list .refer-item:link,
+.refer-list .refer-item:visited {
+  color: #212529;
+}
+
+/* hover時半透明效果 */
+.refer-item:hover .image-container::before {
+  background-color: rgba(255, 255, 255, 0.2);
+}

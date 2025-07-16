@@ -1,0 +1,156 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* hero */
+.hero {
+  width: 100%;
+  background-image: url("../img/hero-sm.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-filter {
+  padding: 151.21px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero h1,
+.hero h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero h2 {
+  font-size: 28px;
+}
+
+/* main */
+
+main .container {
+  max-width: 856px;
+  margin: 0 auto;
+}
+
+.quote {
+  background-color: #f5fee7;
+  text-align: center;
+  padding: 32px;
+  margin-top: 64px;
+}
+
+.quote h3 {
+  font-size: 20px;
+  color: #57a203;
+}
+
+.main-image-wrapper {
+  max-width: 1076px;
+  margin: 0 auto 24px;
+}
+
+.main-image {
+  width: 100%;
+}
+
+/* section */
+section {
+  padding: 48px 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+section h2 {
+  font-size: 24px;
+}
+
+/* section ul li:not(:last-child) {
+  margin-bottom: 12px;
+} */
+
+/* section intro */
+.intro {
+  padding-top: 0;
+}
+
+.intro h3 {
+  color: #57a203;
+  font-size: 20px;
+}
+
+/* section history */
+.history ul {
+  list-style: none;
+}
+
+.history li::before {
+  content: "・";
+  color: #212529;
+}
+
+.history time.year {
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  padding-right: 8px;
+  border-right: 1px solid #212529;
+  margin-right: 8px;
+}
+
+/* section features */
+.features li {
+  padding-left: 12px;
+  border-left: 3px solid #dee2e6;
+}
+
+/* section story */
+.story {
+  margin-bottom: 64px;
+}
+.story .story-link {
+  color: #57a203;
+}
+
+.story .story-link-item {
+  padding: 8px 0;
+  margin-bottom: 0;
+}
+
+.story .story-link-item .bi {
+  width: 20px;
+  height: 20px;
+}
+
+.story .story-link-item a {
+  color: #57a203;
+  display: inline-block;
+  margin-left: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #57a203;
+}
+
+.story .story-link-item a:hover {
+  color: #477a11;
+}
+
+/* footer */
+footer {
+  background-color: #f8f9fa;
+  padding: 66px 0;
+}
+
+footer p {
+  color: #6c757d;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
