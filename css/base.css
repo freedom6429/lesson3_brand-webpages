@@ -79,6 +79,11 @@ a.breadcrumb-link.active {
   color: #6c757d;
 }
 
+.image-container,
+.image-container img {
+  width: 100%;
+}
+
 .dollar-sign {
   font-family: "Roboto Mono", sans-serif;
 }
