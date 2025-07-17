@@ -2,6 +2,8 @@
 body {
   font-family: "Noto-Sans-TC", sans-serif;
   color: #212529;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
 }
 
 .nav {

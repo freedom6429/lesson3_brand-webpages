@@ -49,29 +49,28 @@ main h2 {
 
 .product-card .image-container {
   width: 100%;
-  padding-bottom: 100%; /* 跟隨width */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
+}
+
+.product-card .image-container img {
+  width: 100%;
 }
 
 /* hover時使用的半透明遮罩 */
-.product-card .image-container::before {
+/* .product-card .image-container::before {
   content: "";
   position: absolute;
   inset: 0;
   background-color: rgba(255, 255, 255, 0);
   pointer-events: none;
-}
+} */
 
 .product-card a:link,
 .product-card a:visited {
   color: #212529;
 }
 
-.product-card a:hover .image-container::before {
-  background-color: rgba(255, 255, 255, 0.2);
+.product-card a:hover img {
+  opacity: 0.8;
 }
 
 /* pagination */

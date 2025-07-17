@@ -21,16 +21,8 @@
   letter-spacing: 0.05em;
 }
 
-.default-text {
+.fw-500 {
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
-}
-
-.body-text {
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
 }
 
 .mb-4 {
