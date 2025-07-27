@@ -22,3 +22,7 @@
 7. 刪除多餘 lettter-spacing: 0.05em 設置
 8. breadcrumb 調整為 <nav> 標籤
 9. 修正 768~1320 範圍 X 軸可滾動的問題
+10. 頁碼 hover 樣式，可再根據設計稿呈現來做設置唷（背景色：#F8F9FA）
+11. 修正產品詳細頁產品圖片 desktop 版間距以及 mobile 版滿版樣式
+12. 修正品牌故事頁 hero filter 的 padding 小數點
+13. 品牌故事頁 history 事件列表以 ol 取代 ul

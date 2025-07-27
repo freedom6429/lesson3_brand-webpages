@@ -86,6 +86,10 @@ main h2 {
   vertical-align: middle;
 }
 
+.pagination button:hover {
+  background-color: #f8f9fa;
+}
+
 .pagination button svg {
   width: 20px;
   height: 20px;
