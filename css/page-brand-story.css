@@ -1,16 +1,5 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-  line-height: 1.2;
-}
-
 /* hero */
 .hero {
-  width: 100%;
   background-image: url("../img/hero-sm.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -142,15 +131,58 @@ section h2 {
   color: #477a11;
 }
 
-/* footer */
-footer {
-  background-color: #f8f9fa;
-  padding: 66px 0;
-}
+/*===RWD===*/
+@media screen and (max-width: 768pax) {
+  /* hero */
+  .hero-filter {
+    padding: 87px 0;
+  }
 
-footer p {
-  color: #6c757d;
-  font-size: 14px;
-  letter-spacing: 0.05em;
-  text-align: center;
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  /* quote */
+  .quote {
+    padding: 24px;
+    text-align: left;
+    margin-top: 32px;
+  }
+
+  /* main-image */
+  .main-image-wrapper {
+    padding: 0 12px;
+    margin-bottom: 16px;
+  }
+
+  /* section */
+  section {
+    padding: 32px 0;
+  }
+
+  section h2 {
+    font-size: 20px;
+  }
+
+  /* section-intro */
+  .intro {
+    padding-top: 0;
+  }
+
+  .intro h3 {
+    font-size: 16px;
+  }
+
+  .intro h3 span {
+    display: inline-block;
+  }
+
+  /* section-story */
+  .story {
+    margin-bottom: 32px;
+  }
 }

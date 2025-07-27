@@ -3,7 +3,6 @@
 
 .main-product {
   padding: 64px 0;
-  margin: 0 -12px;
 }
 
 .product-images,
@@ -74,10 +73,6 @@
   padding: 12px 24px;
   border: 1px solid #dee2e6;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
   width: 100%;
 }
 
@@ -175,4 +170,103 @@
 /* hover時半透明效果 */
 .refer-item:hover img {
   opacity: 0.8;
+}
+
+/*===RWD===*/
+@media screen and (max-width: 768px) {
+  /* main-product */
+  .main-product {
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  /* product-images */
+
+  .product-images {
+    padding: 0;
+    margin: 0 -12px;
+    display: block;
+  }
+
+  .product-images li {
+    padding: 0;
+    width: 100vw;
+    margin-bottom: 8px;
+  }
+
+  .product-images li:not(:first-of-type) {
+    display: none;
+  }
+
+  /* product-info */
+  .product-info {
+    padding: 0;
+  }
+
+  .product-info .description {
+    padding: 0;
+  }
+
+  /* description */
+  .product-info .title {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+  }
+
+  .product-info .price {
+    font-family: Montserrat, sans-serif;
+  }
+
+  .product-info .price .current-price {
+    font-size: 16px;
+  }
+
+  .product-info .price .current-price {
+    font-size: 16px;
+  }
+
+  /* specs */
+  .product-info .specs {
+    padding: 0;
+  }
+
+  /* cta */
+  .cta .add-like {
+    display: none;
+  }
+
+  .cta .reservation {
+    flex-grow: 1;
+  }
+
+  .cta .add-like-mobile {
+    display: inline-block;
+    width: 48px;
+    padding: 12px 0;
+  }
+
+  .cta .add-like-mobile:active {
+    background-image: url(../img/heart-fill.svg);
+  }
+
+  /* reference */
+  .reference {
+    padding: 40px 0;
+    margin-bottom: 40px;
+  }
+
+  .refer-list {
+    overflow-x: auto;
+    gap: 16px;
+    scroll-behavior: smooth;
+  }
+
+  .reference h2 {
+    font-size: 20px;
+  }
+
+  .reference .image-container {
+    width: 300px;
+  }
 }

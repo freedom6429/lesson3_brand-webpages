@@ -10,3 +10,15 @@
 3.  麵包屑可以參考 Bootstrap 調整為 nav>ol>li 的結構，另外當前的頁面項通常不會設定連結
 4.  圖片的部分建議使用 img 標籤呈現，對 SEO 會比較好
 5.  區塊可以嘗試使用百分比設定寬度
+
+2025/7/28
+
+1. base.css 部分樣式搬移至 layout.css
+2. page-brand-story.css 標題樣式搬移至 base.css
+3. 刪除 refactor 前的 css
+4. base.css 加上 img 樣式設置
+5. brand-story 的 hero 刪除 width: 100%
+6. body 標籤的 font-family 字型設置修正
+7. 刪除多餘 lettter-spacing: 0.05em 設置
+8. breadcrumb 調整為 <nav> 標籤
+9. 修正 768~1320 範圍 X 軸可滾動的問題

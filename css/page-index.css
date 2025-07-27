@@ -35,10 +35,6 @@ main h2 {
   color: #57a203;
 }
 
-.product-cards {
-  margin: 0 -12px;
-}
-
 .product-card {
   padding: 0 12px;
 }
@@ -101,4 +97,43 @@ button.active {
 
 button.active:hover {
   color: #212529;
+}
+
+@media screen and (max-width: 768px) {
+  /*===page-index===*/
+  /* main */
+  .breadcrumb {
+    font-size: 14px;
+    margin-top: 16px;
+  }
+
+  .side-menu {
+    display: none;
+  }
+
+  /* product-list */
+  .products {
+    display: block;
+  }
+
+  .product-list {
+    width: 100%;
+  }
+
+  .product-cards {
+    margin: 0 -6px;
+  }
+
+  .product-card {
+    padding: 0 6px;
+    flex-grow: 1;
+  }
+
+  .product-card:last-of-type {
+    display: block;
+  }
+
+  .product-name {
+    margin-bottom: 0;
+  }
 }

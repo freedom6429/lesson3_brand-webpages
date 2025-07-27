@@ -69,6 +69,10 @@
   gap: 24px;
 }
 
+.gap-mobile-12 {
+  gap: 12px;
+}
+
 .disabled {
   opacity: 0.4;
   cursor: not-allowed;
