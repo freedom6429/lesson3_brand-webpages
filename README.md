@@ -26,3 +26,12 @@
 11. 修正產品詳細頁產品圖片 desktop 版間距以及 mobile 版滿版樣式
 12. 修正品牌故事頁 hero filter 的 padding 小數點
 13. 品牌故事頁 history 事件列表以 ol 取代 ul
+
+2025/7/30
+
+1. img 部分都以 base.css 設定的 max-width 為主，其他頁面多餘 width 設定刪除
+2. 部分 div 區塊的 width: 100%刪除
+3. 移除 nav-link-item 類別，但保留.heading 的 letter-spacing:0.05 設定，因為 heading 字體大小會影響 letter-spacing 計算結果，無法直接繼承 body 設定。
+4. 修改 media query typo(pax->px)
+5. 產品詳細頁 mobile 主圖不使用 vw 而改為另外寫一個專用 div，螢幕切換到 mobile 版才會顯示以跳脫 container
+6. 品牌介紹頁主圖因 typo 造成滿版問題修正為有水平 padding 的樣式

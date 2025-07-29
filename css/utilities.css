@@ -77,3 +77,26 @@
   opacity: 0.4;
   cursor: not-allowed;
 }
+
+/*===RWD===*/
+@media screen and (max-width: 768px) {
+  .mb-mobile-8 {
+    margin-bottom: 8px;
+  }
+
+  .mb-mobile-12 {
+    margin-bottom: 12px;
+  }
+
+  .mb-mobile-16 {
+    margin-bottom: 16px;
+  }
+
+  .mb-mobile-24 {
+    margin-bottom: 24px;
+  }
+
+  .mb-mobile-32 {
+    margin-bottom: 32px;
+  }
+}

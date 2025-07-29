@@ -34,8 +34,7 @@
 }
 
 .nav-link-item {
-  font-weight: 500;
-  letter-spacing: 0.05em;
+  color: #212529;
 }
 
 .nav-icon-link {
@@ -76,11 +75,6 @@ a.breadcrumb-link.active {
 .link-item:hover,
 .link-item:active {
   color: #6c757d;
-}
-
-.image-container,
-.image-container img {
-  width: 100%;
 }
 
 .dollar-sign {
@@ -234,7 +228,6 @@ a.breadcrumb-link.active {
   }
 
   main .container {
-    width: 100%;
     padding: 0 12px;
   }
 }

@@ -43,14 +43,6 @@ main h2 {
   display: none;
 }
 
-.product-card .image-container {
-  width: 100%;
-}
-
-.product-card .image-container img {
-  width: 100%;
-}
-
 /* hover時使用的半透明遮罩 */
 /* .product-card .image-container::before {
   content: "";
@@ -118,10 +110,6 @@ button.active:hover {
   /* product-list */
   .products {
     display: block;
-  }
-
-  .product-list {
-    width: 100%;
   }
 
   .product-cards {

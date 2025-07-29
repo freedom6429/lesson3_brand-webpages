@@ -49,10 +49,6 @@ main .container {
   margin: 0 auto 24px;
 }
 
-.main-image {
-  width: 100%;
-}
-
 /* section */
 section {
   padding: 48px 0;
@@ -132,7 +128,7 @@ section h2 {
 }
 
 /*===RWD===*/
-@media screen and (max-width: 768pax) {
+@media screen and (max-width: 768px) {
   /* hero */
   .hero-filter {
     padding: 87px 0;
